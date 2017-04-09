@@ -93,7 +93,7 @@ elif [[ "$resposta" = '7' ]]; then
         rm gerenciadoropen.sh
 elif [[ "$resposta" = '8' ]]; then
         rm mudarvalidade.sh
-        wget https://sshhaboryn.com.br/mudarvalidade.sh
+        wget https://raw.githubusercontent.com/FlashVps/scripts/master/mudardata.sh
         chmod +x mudarvalidade.sh
         clear
         ./mudarvalidade.sh
